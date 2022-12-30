@@ -17,7 +17,7 @@ class AddItem extends React.Component {
     this.addItem = this.addItem.bind(this);
   }
 
-  setTask() {
+  setTask(evt) {
     this.setState({
       task: evt.target.value,
     });
